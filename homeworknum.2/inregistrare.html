@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="font-family: 'Sora', sans-serif;">
+    <img src="reg.jpg" alt="Alternate Text" width="30%" align="left" style="margin-left:300px" />
+    <h1 align="center" style="margin-right:330px">Inregistrare</h1>
+    <div align="center" style="margin-right:330px">
+        <form action="" method="post">
+            <div>
+                <label for="name">Nume</label>
+                <input type="text" name="name" value="" />
+            </div>
+            <br />
+            <div>
+                <label for="password" style="margin-left:-25px">Password</label>
+                <input type="password" name="password" value="" />
+            </div>
+            <br />
+            <div>
+                <label for="name" style="margin-left:-30px">Nick name</label>
+                <input type="text" name="name" value="" />
+            </div>
+            <div>
+
+                <h3>Genul</h3>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="sex" value="Masculin" />Masculin
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="Feminin">Feminin
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="Other">Other
+                    </label>
+                </div>
+
+            </div>
+            <br />
+            <div>
+                <label for="name">E-mail</label>
+                <input type="email" name="email" value="" /required>
+            </div>
+            <br />
+            <div>
+                <label for="country">Country</label>
+                <select>
+                    <option>Alege țara în care lucuești</option>
+                    <option value="Moldova">
+                        Moldova
+                    </option>
+                    <option value="Russia">
+                        Russia
+                    </option>
+                    <option value="SUA">
+                        SUA
+                    </option>
+                    <option value="Marea Neagra">
+                        Marea Neagra
+                    </option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <label for="Data nasterii">Data nașterei</label>
+                <input type="date" name="Data nașterei" value="" /required>
+            </div>
+            <div>
+                <label for="Comentariu"><h3>Comentariu</h3></label>
+                <textarea rows="5" cols="30" placeholder="Aici scrie"></textarea>
+            </div>
+            <br />
+            <div>
+                <button type="submit" class="btn btn-primary" style="width:200px">Inregistrare</button>
+                    
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.plate {
+    width: 450px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,9,121,0.465721322708771) 12%, rgba(255,255,255,1) 100%);
+    box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+    "title title"
+    "intro info " ;
+}
+
+.title {
+    grid-area: title;
+}
+
+.intro {
+    padding: 20px;
+    margin-top: -15%;
+    position: inherit;
+    grid-area: intro;
+}
+
+.info { 
+    grid-area: info;
+   
+}
+
+.plate .info strong {
+    margin-right: 5px;
+}
+
+.plate h1 {
+    text-align: center;
+}
+
+

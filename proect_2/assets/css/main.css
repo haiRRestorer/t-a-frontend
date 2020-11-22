@@ -154,6 +154,11 @@ section#main img{
     padding-top: 120px ;
 }
 
+.section-title-3 {
+    grid-template-columns: 30px 265px 200px 3   79px;
+    padding-top: 120px ;
+}
+
 
 /* article for block */
 section#about article.art1 {
@@ -235,7 +240,7 @@ div.rectangle{
     border-top-right-radius: 120px;
     
 }
-
+/* How it work */
 .icon-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -255,7 +260,83 @@ div.rectangle{
     grid-template-rows: 1fr;
     text-align: center;
 }
+/* Catigories  */
+.catigories-container {
+    padding-top:64px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    grid-gap: 40px;
+}
 
+.rectangle.rectangle-pink {
+    background: #F9BDBD;
+
+}
+
+.rectangle.rectangle-blue {
+    background: #A8DCEC;
+
+}
+
+.shop-card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 3;
+    
+    
+}
+.img-catigories {
+    margin: 0 auto;
+}
+
+.img-catigories.img-position-catigories{
+    margin-top: -30px;
+}
+.img-position-catigories-desk {
+    margin-top: -150px;
+}
+
+.img-catigories.img-position-catigories.img-position-catigories-chair {
+    margin-top:-80px ;
+} 
+
+.shop-card p {
+    padding-left:16px;
+    font-size:24px ;
+    font-weight: 800;
+    color: #3E3F43;
+
+}
+
+.shop-button a {
+    float: right;
+    margin-right:30px ;
+    font-weight: bold;
+    border: 1px solid #3E3F43;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius:2px ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+    text-decoration: none;
+    
+    
+    
+}
+.shop-button.shop-button-book {
+    margin-top: -34px  ;
+}
+.shop-button.shop-button-desk {
+    margin-top: 13px  ;
+}
+
+.shop-button.shop-button-radio {
+    margin-top: 30px  ;
+}
 .container {
     
     position: absolute;

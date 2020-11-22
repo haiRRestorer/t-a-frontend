@@ -94,7 +94,7 @@ section#main div h1{
     color: #313235;
     margin: 0;
 }
-
+/* Buttons */
 section#main div button{
     outline: none;
     background-color: #DAA520;
@@ -106,6 +106,31 @@ section#main div button{
     height: 50px;
 }
 
+.botton-how-it-work{
+    font-size: 16px;
+    outline: none;
+    background-color: #DAA520;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 212px;
+    height: 50px;
+    grid-area:button1;
+    align-self: center;
+    justify-self: center;
+    
+    
+}
+
+.button-container-howitwork {
+    padding-top: 64px ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "button1" 
+    ;
+}
 
 
 

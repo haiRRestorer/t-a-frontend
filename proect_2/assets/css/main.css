@@ -155,7 +155,11 @@ section#main img{
 }
 
 .section-title-3 {
-    grid-template-columns: 30px 265px 200px 3   79px;
+    grid-template-columns: 30px 265px 200px 79px;
+    padding-top: 120px ;
+}
+.section-title-4 {
+    grid-template-columns: 30px 265px 300px 379px;
     padding-top: 120px ;
 }
 
@@ -238,6 +242,7 @@ div.rectangle{
     z-index: -1;
     border-bottom-left-radius: 120px;
     border-top-right-radius: 120px;
+    box-shadow: 0 0 7px #666;
     
 }
 /* How it work */
@@ -265,7 +270,7 @@ div.rectangle{
     padding-top:64px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 400px);
+    grid-template-rows: repeat(2, 400px);
     grid-gap: 40px;
 }
 
@@ -337,6 +342,63 @@ div.rectangle{
 .shop-button.shop-button-radio {
     margin-top: 30px  ;
 }
+
+/* Testimony */
+ section#testimony article {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+   
+    padding-top: 50px ;
+}
+
+.img-testomony-radius {
+    border-radius: 80px 0px 80px 0px;
+    box-shadow: 0 0 7px #666;
+}
+
+.border-star {
+   
+    width: 384px ;
+    height: 280px;
+    
+    box-shadow: 0 0 7px #666;
+    border-radius: 0 80px 0 80px ;
+}
+
+.info {
+    padding-left: 16px ;
+    padding-top: 54px ;
+    width: 352px;
+    height: 172px;
+    
+}
+.info img {
+    border-radius: 50% ;
+}
+
+.info div p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3F43;
+}
+
+.woman-block {
+    
+    display: grid;
+    grid-template-columns: 60px 110px ;
+}
+
+.woman-block div p {
+    padding: 0px;
+    margin: 0;
+    font-size: 12px;
+    padding-top:3px ;
+    line-height: 16px;
+    color: #AFAFAF;
+
+
+} 
+
 .container {
     
     position: absolute;
@@ -354,6 +416,7 @@ div.rectangle{
     margin-left: -90px ;
 
 }
+
 
 footer{
     
